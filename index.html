@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-
-   <title>change background</title>
-  <link rel="stylesheet" href="css/main.css">
+  <meta charset="UTF-8"> 
+  <title>form</title>
 </head>
 <body>
-
-  <button type="button" class= "colorBtn">PRESS HERE TO CHANGE BACKGROUND</button>
-  
-  <script src="script.js">
-
-  </script>
+  <div id="error"></div>
+  <form id="form" action="/" method="GET">
+    <div>
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" required>
+    </div>
+    <div>
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password">
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+  <script src="script.js"></script>  
 </body>
 </html>
